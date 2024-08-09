@@ -1,3 +1,67 @@
 body {
-  background-color: rgb(254, 134, 156);
+  background-color: salmon;
+
+  font-family: .gupter-regular {
+    font-family: "Gupter", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .gupter-medium {
+    font-family: "Gupter", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .gupter-bold {
+    font-family: "Gupter", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  ;
+
+}
+
+header {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 600;
+  font: size 85px;
+  line-height: 1.5;
+  color: rgb(7, 3, 3);
+}
+
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+  background-color: rgb(254, 148, 136);
+
+}
+
+form {
+  display: flex;
+
+}
+
+.form-container {
+  padding: 15px 20px;
+  margin-bottom: 30px;
+  background-color: rgb(249, 215, 211);
+  border-radius: 6px;
+  box-shadow: 0px 20px 60px rgba(250, 128, 114, 0.502);
+
+}
+
+.herb-search {
+  padding: 10px;
+  border: 2px solid rgb(59, 46, 44);
+  width: 80%;
+  font-size: 24;
+  border-radius: 6px;
+  line-height: 1.5;
+  color: rgba(39, 17, 17, 0.392);
 }
