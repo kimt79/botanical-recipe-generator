@@ -1,5 +1,6 @@
 body {
-  background-color: salmon;
+  background: #8cba51;
+  ;
 
   font-family: .gupter-regular {
     font-family: "Gupter", serif;
@@ -33,12 +34,23 @@ h1 {
   font: size 85px;
   line-height: 1.5;
   color: rgb(7, 3, 3);
+
 }
+
+img {
+  display: block;
+  height: 80px;
+  width: 80px;
+  margin: auto;
+  padding: 20px;
+}
+
 
 .container {
   margin: 120px auto;
   max-width: 600px;
   background-color: rgb(254, 148, 136);
+  border-radius: 2px;
 
 }
 
@@ -50,18 +62,44 @@ form {
 .form-container {
   padding: 15px 20px;
   margin-bottom: 30px;
-  background-color: rgb(249, 215, 211);
-  border-radius: 6px;
-  box-shadow: 0px 20px 60px rgba(250, 128, 114, 0.502);
+  background-color: #deff8b;
+  border-radius: 4px;
+  box-shadow: 0px 20px 60px rgba(74, 36, 32, 0.363);
 
 }
 
 .herb-search {
   padding: 10px;
-  border: 2px solid rgb(59, 46, 44);
+  border: 1px solid rgb(80, 60, 60);
   width: 80%;
   font-size: 24;
   border-radius: 6px;
   line-height: 1.5;
   color: rgba(39, 17, 17, 0.392);
+}
+
+.submit-button {
+  margin-left: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 6px;
+  padding: 10px;
+  border: black;
+}
+
+.recipe {
+  font-size: 24;
+  background-color: #fbb5b5;
+  padding: 10px;
+  line-height: 1.5;
+  font-weight: 300;
+  border-left: 4px solid #729741;
+  box-shadow: 0px 20px 60px rgba(74, 36, 32, 0.502);
+  border-radius: 2px;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 30px;
 }
