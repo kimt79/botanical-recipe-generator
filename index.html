@@ -4,12 +4,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   <link rel="stylesheet" href="src/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
     rel="stylesheet">
+
   <title>botanical recipe generator</title>
 </head>
 
@@ -26,13 +29,13 @@
 
     <main>
       <div class="form-container">
-        <form>
+        <form id="recipe-generator-form">
           <input type="text" placeholder="herb, spice, root, or plant name" autofocus required autocomplete="off"
             class="herb-search">
 
           <input type="submit" class="submit-button">
         </form>
-        <div class="recipe">
+        <div class="recipe" id="recipe">
           Recipes go here
         </div>
 
