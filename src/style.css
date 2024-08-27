@@ -75,7 +75,7 @@ form {
   font-size: 24;
   border-radius: 6px;
   line-height: 1.5;
-  color: rgba(39, 17, 17, 0.392);
+  color: rgb(39, 17, 17);
 }
 
 .submit-button {
